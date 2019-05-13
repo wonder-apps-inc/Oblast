@@ -38,17 +38,17 @@
 /* Begin PBXFileReference section */
 		A4851034224FE52000A521EF /* homepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageViewController.swift; sourceTree = "<group>"; };
 		A4851036224FE5AF00A521EF /* homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepage.swift; sourceTree = "<group>"; };
-		A4A47BB4222D8FA60044F1E2 /* Faxtion Version 1- Single-View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Faxtion Version 1- Single-View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A47BB4222D8FA60044F1E2 /* OblastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OblastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4A47BB9222D8FA60044F1E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4A47BBC222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A47BC1222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4A47BC3222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4A47BC8222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Faxtion Version 1- Single-ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OblastAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A47BCC222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faxtion_Version_1__Single_ViewTests.swift; sourceTree = "<group>"; };
 		A4A47BCE222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4A47BD3222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Faxtion Version 1- Single-ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OblastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A47BD7222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faxtion_Version_1__Single_ViewUITests.swift; sourceTree = "<group>"; };
 		A4A47BD9222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		A4A47BAB222D8FA60044F1E2 = {
 			isa = PBXGroup;
 			children = (
-				A4A47BB6222D8FA60044F1E2 /* Faxtion Version 1- Single-View */,
-				A4A47BCB222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewTests */,
-				A4A47BD6222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewUITests */,
+				A4A47BB6222D8FA60044F1E2 /* OblastApp */,
+				A4A47BCB222D8FA60044F1E2 /* OblastApp Test */,
+				A4A47BD6222D8FA60044F1E2 /* OblastApp-UITests */,
 				A4A47BB5222D8FA60044F1E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		A4A47BB5222D8FA60044F1E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4A47BB4222D8FA60044F1E2 /* Faxtion Version 1- Single-View.app */,
-				A4A47BC8222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewTests.xctest */,
-				A4A47BD3222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewUITests.xctest */,
+				A4A47BB4222D8FA60044F1E2 /* OblastApp.app */,
+				A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */,
+				A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4A47BB6222D8FA60044F1E2 /* Faxtion Version 1- Single-View */ = {
+		A4A47BB6222D8FA60044F1E2 /* OblastApp */ = {
 			isa = PBXGroup;
 			children = (
 				A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */,
@@ -110,33 +110,33 @@
 				A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */,
 				A4A47BC3222D8FA60044F1E2 /* Info.plist */,
 			);
-			path = "Faxtion Version 1- Single-View";
+			path = OblastApp;
 			sourceTree = "<group>";
 		};
-		A4A47BCB222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewTests */ = {
+		A4A47BCB222D8FA60044F1E2 /* OblastApp Test */ = {
 			isa = PBXGroup;
 			children = (
 				A4A47BCC222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift */,
 				A4A47BCE222D8FA60044F1E2 /* Info.plist */,
 			);
-			path = "Faxtion Version 1- Single-ViewTests";
+			path = "OblastApp Test";
 			sourceTree = "<group>";
 		};
-		A4A47BD6222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewUITests */ = {
+		A4A47BD6222D8FA60044F1E2 /* OblastApp-UITests */ = {
 			isa = PBXGroup;
 			children = (
 				A4A47BD7222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift */,
 				A4A47BD9222D8FA60044F1E2 /* Info.plist */,
 			);
-			path = "Faxtion Version 1- Single-ViewUITests";
+			path = "OblastApp-UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4A47BB3222D8FA60044F1E2 /* Faxtion Version 1- Single-View */ = {
+		A4A47BB3222D8FA60044F1E2 /* OblastApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4A47BDC222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "Faxtion Version 1- Single-View" */;
+			buildConfigurationList = A4A47BDC222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastApp" */;
 			buildPhases = (
 				A4A47BB0222D8FA60044F1E2 /* Sources */,
 				A4A47BB1222D8FA60044F1E2 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "Faxtion Version 1- Single-View";
+			name = OblastApp;
 			productName = "Faxtion Version 1- Single-View";
-			productReference = A4A47BB4222D8FA60044F1E2 /* Faxtion Version 1- Single-View.app */;
+			productReference = A4A47BB4222D8FA60044F1E2 /* OblastApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A4A47BC7222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewTests */ = {
+		A4A47BC7222D8FA60044F1E2 /* OblastAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4A47BDF222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "Faxtion Version 1- Single-ViewTests" */;
+			buildConfigurationList = A4A47BDF222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppTests" */;
 			buildPhases = (
 				A4A47BC4222D8FA60044F1E2 /* Sources */,
 				A4A47BC5222D8FA60044F1E2 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				A4A47BCA222D8FA60044F1E2 /* PBXTargetDependency */,
 			);
-			name = "Faxtion Version 1- Single-ViewTests";
+			name = OblastAppTests;
 			productName = "Faxtion Version 1- Single-ViewTests";
-			productReference = A4A47BC8222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewTests.xctest */;
+			productReference = A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A4A47BD2222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewUITests */ = {
+		A4A47BD2222D8FA60044F1E2 /* OblastAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4A47BE2222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "Faxtion Version 1- Single-ViewUITests" */;
+			buildConfigurationList = A4A47BE2222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppUITests" */;
 			buildPhases = (
 				A4A47BCF222D8FA60044F1E2 /* Sources */,
 				A4A47BD0222D8FA60044F1E2 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				A4A47BD5222D8FA60044F1E2 /* PBXTargetDependency */,
 			);
-			name = "Faxtion Version 1- Single-ViewUITests";
+			name = OblastAppUITests;
 			productName = "Faxtion Version 1- Single-ViewUITests";
-			productReference = A4A47BD3222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewUITests.xctest */;
+			productReference = A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A4A47BAF222D8FA60044F1E2 /* Build configuration list for PBXProject "Faxtion Version 1- Single-View" */;
+			buildConfigurationList = A4A47BAF222D8FA60044F1E2 /* Build configuration list for PBXProject "OblastApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4A47BB3222D8FA60044F1E2 /* Faxtion Version 1- Single-View */,
-				A4A47BC7222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewTests */,
-				A4A47BD2222D8FA60044F1E2 /* Faxtion Version 1- Single-ViewUITests */,
+				A4A47BB3222D8FA60044F1E2 /* OblastApp */,
+				A4A47BC7222D8FA60044F1E2 /* OblastAppTests */,
+				A4A47BD2222D8FA60044F1E2 /* OblastAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		A4A47BCA222D8FA60044F1E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A4A47BB3222D8FA60044F1E2 /* Faxtion Version 1- Single-View */;
+			target = A4A47BB3222D8FA60044F1E2 /* OblastApp */;
 			targetProxy = A4A47BC9222D8FA60044F1E2 /* PBXContainerItemProxy */;
 		};
 		A4A47BD5222D8FA60044F1E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A4A47BB3222D8FA60044F1E2 /* Faxtion Version 1- Single-View */;
+			target = A4A47BB3222D8FA60044F1E2 /* OblastApp */;
 			targetProxy = A4A47BD4222D8FA60044F1E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,10 +435,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLP3H85GZ9;
 				INFOPLIST_FILE = "Faxtion Version 1- Single-View/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-View";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oblast.oblastApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,10 +451,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLP3H85GZ9;
 				INFOPLIST_FILE = "Faxtion Version 1- Single-View/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-View";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oblast.oblastApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,7 +474,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faxtion Version 1- Single-View.app/Faxtion Version 1- Single-View";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OblastApp.app/OblastApp";
 			};
 			name = Debug;
 		};
@@ -488,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faxtion Version 1- Single-View.app/Faxtion Version 1- Single-View";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OblastApp.app/OblastApp";
 			};
 			name = Release;
 		};
@@ -525,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4A47BAF222D8FA60044F1E2 /* Build configuration list for PBXProject "Faxtion Version 1- Single-View" */ = {
+		A4A47BAF222D8FA60044F1E2 /* Build configuration list for PBXProject "OblastApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4A47BDA222D8FA60044F1E2 /* Debug */,
@@ -534,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4A47BDC222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "Faxtion Version 1- Single-View" */ = {
+		A4A47BDC222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4A47BDD222D8FA60044F1E2 /* Debug */,
@@ -543,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4A47BDF222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "Faxtion Version 1- Single-ViewTests" */ = {
+		A4A47BDF222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4A47BE0222D8FA60044F1E2 /* Debug */,
@@ -552,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4A47BE2222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "Faxtion Version 1- Single-ViewUITests" */ = {
+		A4A47BE2222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4A47BE3222D8FA60044F1E2 /* Debug */,
