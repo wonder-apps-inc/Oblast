@@ -8,7 +8,7 @@
 
 import UIKit
 
-class homepageViewController: UIViewController {
+class searchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
