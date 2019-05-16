@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4851035224FE52000A521EF /* homepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* homepageViewController.swift */; };
-		A4851037224FE5AF00A521EF /* homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851036224FE5AF00A521EF /* homepage.swift */; };
+		A4851035224FE52000A521EF /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* searchViewController.swift */; };
+		A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851036224FE5AF00A521EF /* logInViewController.swift */; };
 		A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */; };
-		A4A47BBA222D8FA60044F1E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BB9222D8FA60044F1E2 /* ViewController.swift */; };
+		A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */; };
 		A4A47BBD222D8FA60044F1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BBB222D8FA60044F1E2 /* Main.storyboard */; };
 		A4A47BBF222D8FA60044F1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */; };
 		A4A47BC2222D8FA60044F1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */; };
@@ -36,11 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A4851034224FE52000A521EF /* homepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageViewController.swift; sourceTree = "<group>"; };
-		A4851036224FE5AF00A521EF /* homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepage.swift; sourceTree = "<group>"; };
+		A4851034224FE52000A521EF /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		A4851036224FE5AF00A521EF /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
 		A4A47BB4222D8FA60044F1E2 /* OblastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OblastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4A47BB9222D8FA60044F1E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		A4A47BBC222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A47BC1222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,10 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */,
-				A4A47BB9222D8FA60044F1E2 /* ViewController.swift */,
+				A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */,
 				A4A47BBB222D8FA60044F1E2 /* Main.storyboard */,
-				A4851034224FE52000A521EF /* homepageViewController.swift */,
-				A4851036224FE5AF00A521EF /* homepage.swift */,
+				A4851034224FE52000A521EF /* searchViewController.swift */,
+				A4851036224FE5AF00A521EF /* logInViewController.swift */,
 				A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */,
 				A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */,
 				A4A47BC3222D8FA60044F1E2 /* Info.plist */,
@@ -265,10 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4851035224FE52000A521EF /* homepageViewController.swift in Sources */,
-				A4A47BBA222D8FA60044F1E2 /* ViewController.swift in Sources */,
+				A4851035224FE52000A521EF /* searchViewController.swift in Sources */,
+				A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */,
 				A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */,
-				A4851037224FE5AF00A521EF /* homepage.swift in Sources */,
+				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LLP3H85GZ9;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-View/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/OblastApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oblast.oblastApp;
@@ -452,7 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LLP3H85GZ9;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-View/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/OblastApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oblast.oblastApp;
