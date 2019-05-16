@@ -47,7 +47,7 @@
                                 </constraints>
                                 <state key="normal" title="Sign In"/>
                                 <connections>
-                                    <segue destination="H4u-TV-bUt" kind="show" id="yd7-2r-efe"/>
+                                    <segue destination="H4u-TV-bUt" kind="showDetail" identifier="signIn" id="TCH-cw-C1s"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're a new user?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5Y-ax-YSt">
@@ -60,9 +60,6 @@
                                 <rect key="frame" x="44" y="278" width="287" height="30"/>
                                 <color key="backgroundColor" red="0.59592326915778793" green="1" blue="0.4705789338688432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Create a new account now"/>
-                                <connections>
-                                    <segue destination="hkW-4S-Dvr" kind="show" id="o1d-cP-7mg"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -105,9 +102,6 @@
                                 <rect key="frame" x="16" y="111" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="3wD-dH-1HB"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome UMass Students!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIA-xS-N6z">
                                 <rect key="frame" x="16" y="132" width="343" height="46"/>
@@ -286,9 +280,6 @@
                                 <rect key="frame" x="165" y="57" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="oim-aV-Rjg"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We will verify your account via email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oO-Ip-4ky">
                                 <rect key="frame" x="32" y="577" width="312" height="67"/>
@@ -307,7 +298,4 @@
             <point key="canvasLocation" x="1084" y="806.89655172413802"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="oim-aV-Rjg"/>
-    </inferredMetricsTieBreakers>
 </document>

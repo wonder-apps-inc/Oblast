@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95D2DA228D9CC00026FAAF /* zipCodes.swift */; };
+		8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */; };
 		A4851035224FE52000A521EF /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* searchViewController.swift */; };
 		A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851036224FE5AF00A521EF /* logInViewController.swift */; };
 		A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */; };
@@ -14,28 +16,11 @@
 		A4A47BBD222D8FA60044F1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BBB222D8FA60044F1E2 /* Main.storyboard */; };
 		A4A47BBF222D8FA60044F1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */; };
 		A4A47BC2222D8FA60044F1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */; };
-		A4A47BCD222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BCC222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift */; };
-		A4A47BD8222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BD7222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A4A47BC9222D8FA60044F1E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4A47BAC222D8FA60044F1E2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4A47BB3222D8FA60044F1E2;
-			remoteInfo = "Faxtion Version 1- Single-View";
-		};
-		A4A47BD4222D8FA60044F1E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4A47BAC222D8FA60044F1E2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4A47BB3222D8FA60044F1E2;
-			remoteInfo = "Faxtion Version 1- Single-View";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		8C95D2DA228D9CC00026FAAF /* zipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodes.swift; sourceTree = "<group>"; };
+		8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcodeJSON.json; sourceTree = "<group>"; };
 		A4851034224FE52000A521EF /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		A4851036224FE5AF00A521EF /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
 		A4A47BB4222D8FA60044F1E2 /* OblastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OblastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,12 +30,6 @@
 		A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A47BC1222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4A47BC3222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OblastAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4A47BCC222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faxtion_Version_1__Single_ViewTests.swift; sourceTree = "<group>"; };
-		A4A47BCE222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OblastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4A47BD7222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faxtion_Version_1__Single_ViewUITests.swift; sourceTree = "<group>"; };
-		A4A47BD9222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,29 +40,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4A47BC5222D8FA60044F1E2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BD0222D8FA60044F1E2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C95D2D9228D9CB40026FAAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C95D2DA228D9CC00026FAAF /* zipCodes.swift */,
+				8C95D2DC228D9D130026FAAF /* ViewControllers */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C95D2DC228D9D130026FAAF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */,
+				A4851034224FE52000A521EF /* searchViewController.swift */,
+				A4851036224FE5AF00A521EF /* logInViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		A4A47BAB222D8FA60044F1E2 = {
 			isa = PBXGroup;
 			children = (
 				A4A47BB6222D8FA60044F1E2 /* OblastApp */,
-				A4A47BCB222D8FA60044F1E2 /* OblastApp Test */,
-				A4A47BD6222D8FA60044F1E2 /* OblastApp-UITests */,
 				A4A47BB5222D8FA60044F1E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				A4A47BB4222D8FA60044F1E2 /* OblastApp.app */,
-				A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */,
-				A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,34 +81,15 @@
 		A4A47BB6222D8FA60044F1E2 /* OblastApp */ = {
 			isa = PBXGroup;
 			children = (
+				8C95D2D9228D9CB40026FAAF /* Model */,
 				A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */,
-				A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */,
 				A4A47BBB222D8FA60044F1E2 /* Main.storyboard */,
-				A4851034224FE52000A521EF /* searchViewController.swift */,
-				A4851036224FE5AF00A521EF /* logInViewController.swift */,
 				A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */,
 				A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */,
 				A4A47BC3222D8FA60044F1E2 /* Info.plist */,
+				8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */,
 			);
 			path = OblastApp;
-			sourceTree = "<group>";
-		};
-		A4A47BCB222D8FA60044F1E2 /* OblastApp Test */ = {
-			isa = PBXGroup;
-			children = (
-				A4A47BCC222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift */,
-				A4A47BCE222D8FA60044F1E2 /* Info.plist */,
-			);
-			path = "OblastApp Test";
-			sourceTree = "<group>";
-		};
-		A4A47BD6222D8FA60044F1E2 /* OblastApp-UITests */ = {
-			isa = PBXGroup;
-			children = (
-				A4A47BD7222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift */,
-				A4A47BD9222D8FA60044F1E2 /* Info.plist */,
-			);
-			path = "OblastApp-UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +112,6 @@
 			productReference = A4A47BB4222D8FA60044F1E2 /* OblastApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A4A47BC7222D8FA60044F1E2 /* OblastAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4A47BDF222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppTests" */;
-			buildPhases = (
-				A4A47BC4222D8FA60044F1E2 /* Sources */,
-				A4A47BC5222D8FA60044F1E2 /* Frameworks */,
-				A4A47BC6222D8FA60044F1E2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4A47BCA222D8FA60044F1E2 /* PBXTargetDependency */,
-			);
-			name = OblastAppTests;
-			productName = "Faxtion Version 1- Single-ViewTests";
-			productReference = A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A4A47BD2222D8FA60044F1E2 /* OblastAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4A47BE2222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppUITests" */;
-			buildPhases = (
-				A4A47BCF222D8FA60044F1E2 /* Sources */,
-				A4A47BD0222D8FA60044F1E2 /* Frameworks */,
-				A4A47BD1222D8FA60044F1E2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4A47BD5222D8FA60044F1E2 /* PBXTargetDependency */,
-			);
-			name = OblastAppUITests;
-			productName = "Faxtion Version 1- Single-ViewUITests";
-			productReference = A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,16 +125,6 @@
 					A4A47BB3222D8FA60044F1E2 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					A4A47BC7222D8FA60044F1E2 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A4A47BB3222D8FA60044F1E2;
-					};
-					A4A47BD2222D8FA60044F1E2 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A4A47BB3222D8FA60044F1E2;
 					};
 				};
 			};
@@ -227,8 +142,6 @@
 			projectRoot = "";
 			targets = (
 				A4A47BB3222D8FA60044F1E2 /* OblastApp */,
-				A4A47BC7222D8FA60044F1E2 /* OblastAppTests */,
-				A4A47BD2222D8FA60044F1E2 /* OblastAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,23 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */,
 				A4A47BC2222D8FA60044F1E2 /* LaunchScreen.storyboard in Resources */,
 				A4A47BBF222D8FA60044F1E2 /* Assets.xcassets in Resources */,
 				A4A47BBD222D8FA60044F1E2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BC6222D8FA60044F1E2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BD1222D8FA60044F1E2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,39 +169,11 @@
 				A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */,
 				A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */,
 				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BC4222D8FA60044F1E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4A47BCD222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BCF222D8FA60044F1E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4A47BD8222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift in Sources */,
+				8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A4A47BCA222D8FA60044F1E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4A47BB3222D8FA60044F1E2 /* OblastApp */;
-			targetProxy = A4A47BC9222D8FA60044F1E2 /* PBXContainerItemProxy */;
-		};
-		A4A47BD5222D8FA60044F1E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4A47BB3222D8FA60044F1E2 /* OblastApp */;
-			targetProxy = A4A47BD4222D8FA60044F1E2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A4A47BBB222D8FA60044F1E2 /* Main.storyboard */ = {
@@ -462,68 +334,6 @@
 			};
 			name = Release;
 		};
-		A4A47BE0222D8FA60044F1E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-ViewTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-ViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OblastApp.app/OblastApp";
-			};
-			name = Debug;
-		};
-		A4A47BE1222D8FA60044F1E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-ViewTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-ViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OblastApp.app/OblastApp";
-			};
-			name = Release;
-		};
-		A4A47BE3222D8FA60044F1E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-ViewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-ViewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Faxtion Version 1- Single-View";
-			};
-			name = Debug;
-		};
-		A4A47BE4222D8FA60044F1E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-ViewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-ViewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Faxtion Version 1- Single-View";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -541,24 +351,6 @@
 			buildConfigurations = (
 				A4A47BDD222D8FA60044F1E2 /* Debug */,
 				A4A47BDE222D8FA60044F1E2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4A47BDF222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4A47BE0222D8FA60044F1E2 /* Debug */,
-				A4A47BE1222D8FA60044F1E2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4A47BE2222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4A47BE3222D8FA60044F1E2 /* Debug */,
-				A4A47BE4222D8FA60044F1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
