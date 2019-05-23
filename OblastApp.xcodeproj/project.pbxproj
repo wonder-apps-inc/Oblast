@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */; };
 		8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95D2DA228D9CC00026FAAF /* zipCodes.swift */; };
 		8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */; };
 		A4851035224FE52000A521EF /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* searchViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodeSearchCell.swift; sourceTree = "<group>"; };
 		8C95D2DA228D9CC00026FAAF /* zipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodes.swift; sourceTree = "<group>"; };
 		8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcodeJSON.json; sourceTree = "<group>"; };
 		A4851034224FE52000A521EF /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */,
 				A4851034224FE52000A521EF /* searchViewController.swift */,
 				A4851036224FE5AF00A521EF /* logInViewController.swift */,
+				8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */,
 				A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */,
 				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
+				8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */,
 				8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
