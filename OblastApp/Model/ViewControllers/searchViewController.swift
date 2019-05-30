@@ -25,7 +25,7 @@ class searchViewController: UITableViewController, UISearchBarDelegate {
     var filteredZipCodes = [zipCodes]()
     var inSearchMode = false
     
-//    var zipCodes: zipCodes!
+    var zipCodesVar: zipCodes!
     
     let searchController = UISearchController(searchResultsController: nil)
 
@@ -37,7 +37,7 @@ class searchViewController: UITableViewController, UISearchBarDelegate {
 
         // Do any additional setup after loading the view.
         
-//        searchBar.returnKeyType = UIReturnKeyType.done
+        searchBar.returnKeyType = UIReturnKeyType.done
         tableView.delegate = self
         tableView.dataSource = self
         searchBar.delegate = self
@@ -65,11 +65,11 @@ class searchViewController: UITableViewController, UISearchBarDelegate {
                 if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String:Any] {
                     
                     (json["results"] as? [[String:Any]])?.forEach { j in
-                        if let townName = j["identifier"] as? String, let zipcode = j["id"] as? Int {
+                        if let name = j["identifier"] as? String, let id = j["id"] as? Int {
                             
                             
-                            let zipCode = zipCodes(townName:townName, zipCode: zipcode)
-                            zipCodesArray.append(zipCode)
+                            let sign = zipCodes(townName: name, zipCode: id)
+                            zipCodesArray.append(sign)
                         }
                     }
                     
@@ -166,7 +166,7 @@ class searchViewController: UITableViewController, UISearchBarDelegate {
                 //Dictionary button view, is dictionarytableview, the main table view click on is detail view. maybe need another segue with button.
                 
                 
-                controller.zipCodesArray = zip
+                controller.zipCodesVar = zip
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }

@@ -131,6 +131,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="qbQ-JG-4Dz"/>
+                    <connections>
+                        <outlet property="searchBar" destination="ls8-lE-KGj" id="fIc-dA-gbm"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zzv-Oi-XbE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -144,118 +147,139 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome UMass Students!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIA-xS-N6z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Welcome UMass Students!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIA-xS-N6z">
                                 <rect key="frame" x="16" y="132" width="343" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="1" green="0.28540149487091493" blue="0.25309242539342491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a forum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLT-bE-dcW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Choose a forum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLT-bE-dcW">
                                 <rect key="frame" x="104" y="170" width="166" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYR-FZ-wJH">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYR-FZ-wJH">
                                 <rect key="frame" x="50" y="217" width="275" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Advocacy"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tq-xl-q9X">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tq-xl-q9X">
                                 <rect key="frame" x="50" y="249" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Civic Engagement"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEx-Ji-KdD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEx-Ji-KdD">
                                 <rect key="frame" x="50" y="287" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Community &amp; Housing"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyi-ot-920">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyi-ot-920">
                                 <rect key="frame" x="50" y="325" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Education"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJm-9z-2c9">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJm-9z-2c9">
                                 <rect key="frame" x="50" y="363" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Energy"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52k-Hg-Ugf">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52k-Hg-Ugf">
                                 <rect key="frame" x="50" y="401" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Environment &amp; Sustainability"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZtW-iR-mbp">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZtW-iR-mbp">
                                 <rect key="frame" x="50" y="439" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Finance"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jT-ci-1UT">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jT-ci-1UT">
                                 <rect key="frame" x="50" y="477" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Health &amp; Wellness"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVP-BV-jjP">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVP-BV-jjP">
                                 <rect key="frame" x="50" y="515" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Leadership"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJA-LP-dJr">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJA-LP-dJr">
                                 <rect key="frame" x="50" y="553" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Partying &amp; Night Life"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgI-t7-g6K">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgI-t7-g6K">
                                 <rect key="frame" x="50" y="591" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Public Safety"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDa-sX-iY0">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDa-sX-iY0">
                                 <rect key="frame" x="50" y="629" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Race &amp; Equity"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulA-DA-vOB">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulA-DA-vOB">
                                 <rect key="frame" x="50" y="667" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Research"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F46-yN-L7d">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F46-yN-L7d">
                                 <rect key="frame" x="50" y="705" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Technology"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCU-p0-Umd">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCU-p0-Umd">
                                 <rect key="frame" x="50" y="743" width="275" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Transportation"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2U-Tf-jXb">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2U-Tf-jXb">
                                 <rect key="frame" x="50" y="780" width="275" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Youth &amp; Family"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="52k-Hg-Ugf" secondAttribute="leading" id="0s6-Qo-5D3"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="gJm-9z-2c9" secondAttribute="leading" id="13u-w6-ueq"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="ulA-DA-vOB" secondAttribute="trailing" id="1vt-uT-Ars"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="top" secondItem="mYR-FZ-wJH" secondAttribute="bottom" constant="8" symbolic="YES" id="2Ow-KP-h4B"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="8jT-ci-1UT" secondAttribute="leading" id="3G2-Yo-LD9"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="8jT-ci-1UT" secondAttribute="trailing" id="3tb-Vk-O8x"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="ZtW-iR-mbp" secondAttribute="trailing" id="4Se-z1-QP2"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="mYR-FZ-wJH" secondAttribute="leading" id="4mg-pY-t5q"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="mVP-BV-jjP" secondAttribute="leading" id="7wz-uf-G5e"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="Wyi-ot-920" secondAttribute="leading" id="CxZ-pe-59R"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="XgI-t7-g6K" secondAttribute="trailing" id="F9d-Zm-MAk"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="NCU-p0-Umd" secondAttribute="trailing" id="H8Y-uB-liq"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="qDa-sX-iY0" secondAttribute="trailing" id="Hnn-ea-NOR"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="GEx-Ji-KdD" secondAttribute="trailing" id="Hpo-kd-qVB"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="GEx-Ji-KdD" secondAttribute="leading" id="Nv5-Yy-45V"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="BJA-LP-dJr" secondAttribute="leading" id="P3w-rZ-7bl"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="mYR-FZ-wJH" secondAttribute="trailing" id="TSM-U2-3xe"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="mVP-BV-jjP" secondAttribute="trailing" id="TsM-eW-a2c"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="F46-yN-L7d" secondAttribute="trailing" id="VDk-he-5gz"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="centerX" secondItem="uFV-jo-peS" secondAttribute="centerX" id="XAk-q0-lG6"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="HBx-gB-i6e" secondAttribute="leading" constant="50" id="XGe-4I-Sxc"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="XgI-t7-g6K" secondAttribute="leading" id="a0K-jf-yzb"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="centerX" secondItem="rLT-bE-dcW" secondAttribute="centerX" id="ao1-eP-PJD"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="BJA-LP-dJr" secondAttribute="trailing" id="bNz-1S-guY"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="top" secondItem="uFV-jo-peS" secondAttribute="top" constant="249" id="dxO-jS-Hvs"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="centerX" secondItem="EIA-xS-N6z" secondAttribute="centerX" id="eAn-3u-O16"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="ulA-DA-vOB" secondAttribute="leading" id="fHE-Zy-fRP"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="52k-Hg-Ugf" secondAttribute="trailing" id="frj-C7-oca"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="Wyi-ot-920" secondAttribute="trailing" id="mqS-EH-Yrs"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="gJm-9z-2c9" secondAttribute="trailing" id="n52-S3-KUg"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="v2U-Tf-jXb" secondAttribute="leading" id="o0D-CU-o1X"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="ZtW-iR-mbp" secondAttribute="leading" id="qni-3k-pcq"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="NCU-p0-Umd" secondAttribute="leading" id="qqE-K9-5ad"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="qDa-sX-iY0" secondAttribute="leading" id="sgF-V0-l7U"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="v2U-Tf-jXb" secondAttribute="trailing" id="siO-1D-OO8"/>
+                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="F46-yN-L7d" secondAttribute="leading" id="w9V-kG-pZD"/>
+                            <constraint firstItem="GEx-Ji-KdD" firstAttribute="top" secondItem="3tq-xl-q9X" secondAttribute="bottom" constant="8" symbolic="YES" id="yQw-Jv-s88"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="HBx-gB-i6e"/>
                     </view>
                 </viewController>
