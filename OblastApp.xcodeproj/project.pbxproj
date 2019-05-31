@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4C2CF622A14EB1008A356E /* csvjson.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C4C2CF522A14EB1008A356E /* csvjson.json */; };
 		8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */; };
 		8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95D2DA228D9CC00026FAAF /* zipCodes.swift */; };
 		8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C4C2CF522A14EB1008A356E /* csvjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = csvjson.json; sourceTree = "<group>"; };
 		8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodeSearchCell.swift; sourceTree = "<group>"; };
 		8C95D2DA228D9CC00026FAAF /* zipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodes.swift; sourceTree = "<group>"; };
 		8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcodeJSON.json; sourceTree = "<group>"; };
@@ -49,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				8C95D2DA228D9CC00026FAAF /* zipCodes.swift */,
-				8C95D2DC228D9D130026FAAF /* ViewControllers */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,12 +85,14 @@
 		A4A47BB6222D8FA60044F1E2 /* OblastApp */ = {
 			isa = PBXGroup;
 			children = (
+				8C95D2DC228D9D130026FAAF /* ViewControllers */,
 				8C95D2D9228D9CB40026FAAF /* Model */,
 				A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */,
 				A4A47BBB222D8FA60044F1E2 /* Main.storyboard */,
 				A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */,
 				A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */,
 				A4A47BC3222D8FA60044F1E2 /* Info.plist */,
+				8C4C2CF522A14EB1008A356E /* csvjson.json */,
 				8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */,
 			);
 			path = OblastApp;
@@ -122,11 +125,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Egbert Sayers";
 				TargetAttributes = {
 					A4A47BB3222D8FA60044F1E2 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -156,6 +160,7 @@
 			files = (
 				8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */,
 				A4A47BC2222D8FA60044F1E2 /* LaunchScreen.storyboard in Resources */,
+				8C4C2CF622A14EB1008A356E /* csvjson.json in Resources */,
 				A4A47BBF222D8FA60044F1E2 /* Assets.xcassets in Resources */,
 				A4A47BBD222D8FA60044F1E2 /* Main.storyboard in Resources */,
 			);
@@ -213,6 +218,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -220,6 +226,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -270,6 +277,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -277,6 +285,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -317,7 +326,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oblast.oblastApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -333,7 +342,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oblast.oblastApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
