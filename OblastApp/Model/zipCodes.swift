@@ -13,13 +13,14 @@ class zipCodes {
 
     var townName: String
     var zipCode: Int
+    var state: String
     
     
-    
-    init(townName: String, zipCode: Int) {
+    init(townName: String, zipCode: Int, state: String) {
         
         self.townName = townName
         self.zipCode = zipCode
+        self.state = state
     }
     
     

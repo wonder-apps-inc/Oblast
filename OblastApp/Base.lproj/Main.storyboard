@@ -104,24 +104,47 @@
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="zipCode" textLabel="yII-pZ-WYR" style="IBUITableViewCellStyleDefault" id="Vgg-3u-wNT" customClass="zipCodeSearchCell" customModule="OblastApp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="zipCode" rowHeight="81" id="Vgg-3u-wNT" customClass="zipCodeSearchCell" customModule="OblastApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="375" height="81"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vgg-3u-wNT" id="6Rj-Av-u1C">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yII-pZ-WYR">
-                                            <rect key="frame" x="16" y="0.0" width="343" height="43.666666666666664"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeO-aR-4Vk">
+                                            <rect key="frame" x="16" y="11" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNL-l7-EBw">
+                                            <rect key="frame" x="284" y="11" width="41.666666666666657" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhV-bd-Y48">
+                                            <rect key="frame" x="147" y="11" width="41.666666666666657" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="yeO-aR-4Vk" firstAttribute="leading" secondItem="6Rj-Av-u1C" secondAttribute="leadingMargin" id="DEA-1U-gPE"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LhV-bd-Y48" secondAttribute="trailing" constant="20" symbolic="YES" id="NsN-ho-Xkg"/>
+                                        <constraint firstItem="LhV-bd-Y48" firstAttribute="top" secondItem="yeO-aR-4Vk" secondAttribute="bottom" constant="-21" id="OhT-nT-3Zn"/>
+                                        <constraint firstItem="yeO-aR-4Vk" firstAttribute="baseline" secondItem="hNL-l7-EBw" secondAttribute="baseline" id="QuO-5B-R1J"/>
+                                        <constraint firstItem="yeO-aR-4Vk" firstAttribute="leading" secondItem="LhV-bd-Y48" secondAttribute="leading" constant="-131" id="SZo-YL-Ecr"/>
+                                        <constraint firstItem="yeO-aR-4Vk" firstAttribute="top" secondItem="6Rj-Av-u1C" secondAttribute="topMargin" id="dI4-GO-Dx1"/>
+                                        <constraint firstItem="hNL-l7-EBw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yeO-aR-4Vk" secondAttribute="trailing" constant="8" symbolic="YES" id="nxg-Ad-SW9"/>
+                                        <constraint firstItem="hNL-l7-EBw" firstAttribute="centerX" secondItem="6Rj-Av-u1C" secondAttribute="centerX" constant="117.33333333333331" id="vKV-kB-9hL"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="zipCodeLabel" destination="yII-pZ-WYR" id="E9Z-dn-uGW"/>
+                                    <outlet property="stateLabel" destination="LhV-bd-Y48" id="Cyt-hc-SNq"/>
+                                    <outlet property="zipCodeLabel" destination="yeO-aR-4Vk" id="qxD-ys-FZe"/>
+                                    <outlet property="zipNumberLabel" destination="hNL-l7-EBw" id="syb-4k-IwK"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

@@ -66,10 +66,10 @@ class searchViewController: UITableViewController, UISearchBarDelegate {
                 if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String:Any] {
                     
                     (json["results"] as? [[String:Any]])?.forEach { j in
-                        if let name = j["identifier"] as? String, let id = j["id"] as? Int {
+                        if let name = j["identifier"] as? String, let id = j["id"] as? Int, let state = j["State"] as? String {
                             
                             
-                            let sign = zipCodes(townName: name, zipCode: id)
+                            let sign = zipCodes(townName: name, zipCode: id, state:state)
                             zipCodesArray.append(sign)
                         }
                     }
@@ -90,8 +90,11 @@ class searchViewController: UITableViewController, UISearchBarDelegate {
     }
     
     func filterContentForSearchText(_ searchText: String, scope: String = "All") {
-        filteredZipCodes = zipCodesArray.filter({(zipCodes : zipCodes) -> Bool in return zipCodes.townName.lowercased().contains(searchText.lowercased())
-//            zipCodes.zipCode
+        filteredZipCodes = zipCodesArray.filter({(zipCodes : zipCodes) -> Bool in return
+            String(zipCodes.zipCode).contains(searchText)
+            //townName.lowercased().contains(searchText.lowercased())
+//            String(zipCodes.zipCode).contains(searchText)
+            //            zipCodes.zipCode
             
             
         })
@@ -113,7 +116,7 @@ class searchViewController: UITableViewController, UISearchBarDelegate {
         } else {
             inSearchMode = true
             filteredZipCodes = zipCodesArray.filter{$0.townName.range(of: searchBar.text!, options: .caseInsensitive) != nil}
-            
+//            filteredZipCodes = zipCodesArray.filter{$0.String(zipCode).range(of: searchBar.text!)}
             tableView.reloadData()
         }
     }

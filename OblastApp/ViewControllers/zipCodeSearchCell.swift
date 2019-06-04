@@ -12,6 +12,8 @@ class zipCodeSearchCell: UITableViewCell {
     
     
     @IBOutlet weak var zipCodeLabel: UILabel!
+    @IBOutlet weak var stateLabel: UILabel!
+    @IBOutlet weak var zipNumberLabel: UILabel!
     
     var zipCodes: zipCodes!
     
@@ -33,7 +35,8 @@ class zipCodeSearchCell: UITableViewCell {
         self.zipCodes = zipCode
         zipCodeLabel.text = self.zipCodes.townName.capitalized
         //        signImage.image = UIImage(named: "\(self.signs.signNumber)")
-        
+        stateLabel.text = self.zipCodes.state.uppercased()
+        zipNumberLabel.text = String(zipCodes.zipCode)
     }
 
     
