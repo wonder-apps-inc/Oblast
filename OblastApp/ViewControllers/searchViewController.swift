@@ -13,6 +13,16 @@
  
  
  NEED TO ADD THE LABEL in the table view TO SHOW WHAT STATE THE TOWN IS FROM.
+ 
+ 
+ Goals:
+ 
+ Create FireBase DB.
+ Create Log In FB stuff
+ Hook up LogIn VC.
+-When click on the town cell it takes you to 'forums' screen.
+ 
+ 
  */
 
 import UIKit
