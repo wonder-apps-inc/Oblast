@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4C2CF622A14EB1008A356E /* csvjson.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C4C2CF522A14EB1008A356E /* csvjson.json */; };
+		8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */; };
+		8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95D2DA228D9CC00026FAAF /* zipCodes.swift */; };
+		8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */; };
+		8CC6521622B93E5A0051AB91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */; };
+		8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */; };
 		A4851035224FE52000A521EF /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* searchViewController.swift */; };
 		A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851036224FE5AF00A521EF /* logInViewController.swift */; };
 		A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */; };
@@ -14,28 +20,18 @@
 		A4A47BBD222D8FA60044F1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BBB222D8FA60044F1E2 /* Main.storyboard */; };
 		A4A47BBF222D8FA60044F1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */; };
 		A4A47BC2222D8FA60044F1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */; };
-		A4A47BCD222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BCC222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift */; };
-		A4A47BD8222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BD7222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift */; };
+		A5799E4B7CBAE1D4FA08CA46 /* Pods_OblastApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53528C39FBCAFC9242EF273C /* Pods_OblastApp.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A4A47BC9222D8FA60044F1E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4A47BAC222D8FA60044F1E2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4A47BB3222D8FA60044F1E2;
-			remoteInfo = "Faxtion Version 1- Single-View";
-		};
-		A4A47BD4222D8FA60044F1E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4A47BAC222D8FA60044F1E2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4A47BB3222D8FA60044F1E2;
-			remoteInfo = "Faxtion Version 1- Single-View";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0BB47F604F1E9B9B2458CBA4 /* Pods-OblastApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OblastApp.release.xcconfig"; path = "Target Support Files/Pods-OblastApp/Pods-OblastApp.release.xcconfig"; sourceTree = "<group>"; };
+		53528C39FBCAFC9242EF273C /* Pods_OblastApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OblastApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4C2CF522A14EB1008A356E /* csvjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = csvjson.json; sourceTree = "<group>"; };
+		8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodeSearchCell.swift; sourceTree = "<group>"; };
+		8C95D2DA228D9CC00026FAAF /* zipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodes.swift; sourceTree = "<group>"; };
+		8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcodeJSON.json; sourceTree = "<group>"; };
+		8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		A4851034224FE52000A521EF /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		A4851036224FE5AF00A521EF /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
 		A4A47BB4222D8FA60044F1E2 /* OblastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OblastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,12 +41,7 @@
 		A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A47BC1222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4A47BC3222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OblastAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4A47BCC222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faxtion_Version_1__Single_ViewTests.swift; sourceTree = "<group>"; };
-		A4A47BCE222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OblastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4A47BD7222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faxtion_Version_1__Single_ViewUITests.swift; sourceTree = "<group>"; };
-		A4A47BD9222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF29FD089087C846FC534708 /* Pods-OblastApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OblastApp.debug.xcconfig"; path = "Target Support Files/Pods-OblastApp/Pods-OblastApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,33 +49,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BC5222D8FA60044F1E2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BD0222D8FA60044F1E2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A5799E4B7CBAE1D4FA08CA46 /* Pods_OblastApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		868844053E78848A4E5DE4E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF29FD089087C846FC534708 /* Pods-OblastApp.debug.xcconfig */,
+				0BB47F604F1E9B9B2458CBA4 /* Pods-OblastApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C95D2D9228D9CB40026FAAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C95D2DA228D9CC00026FAAF /* zipCodes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C95D2DC228D9D130026FAAF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */,
+				A4851034224FE52000A521EF /* searchViewController.swift */,
+				A4851036224FE5AF00A521EF /* logInViewController.swift */,
+				8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8CC6521722B9507A0051AB91 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		A4A47BAB222D8FA60044F1E2 = {
 			isa = PBXGroup;
 			children = (
 				A4A47BB6222D8FA60044F1E2 /* OblastApp */,
-				A4A47BCB222D8FA60044F1E2 /* OblastApp Test */,
-				A4A47BD6222D8FA60044F1E2 /* OblastApp-UITests */,
 				A4A47BB5222D8FA60044F1E2 /* Products */,
+				868844053E78848A4E5DE4E6 /* Pods */,
+				CE3516AE62FD518175F3A3E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				A4A47BB4222D8FA60044F1E2 /* OblastApp.app */,
-				A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */,
-				A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,34 +113,27 @@
 		A4A47BB6222D8FA60044F1E2 /* OblastApp */ = {
 			isa = PBXGroup;
 			children = (
+				8CC6521722B9507A0051AB91 /* Helper */,
+				8C95D2DC228D9D130026FAAF /* ViewControllers */,
+				8C95D2D9228D9CB40026FAAF /* Model */,
 				A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */,
-				A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */,
 				A4A47BBB222D8FA60044F1E2 /* Main.storyboard */,
-				A4851034224FE52000A521EF /* searchViewController.swift */,
-				A4851036224FE5AF00A521EF /* logInViewController.swift */,
 				A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */,
 				A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */,
 				A4A47BC3222D8FA60044F1E2 /* Info.plist */,
+				8C4C2CF522A14EB1008A356E /* csvjson.json */,
+				8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */,
+				8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */,
 			);
 			path = OblastApp;
 			sourceTree = "<group>";
 		};
-		A4A47BCB222D8FA60044F1E2 /* OblastApp Test */ = {
+		CE3516AE62FD518175F3A3E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4A47BCC222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift */,
-				A4A47BCE222D8FA60044F1E2 /* Info.plist */,
+				53528C39FBCAFC9242EF273C /* Pods_OblastApp.framework */,
 			);
-			path = "OblastApp Test";
-			sourceTree = "<group>";
-		};
-		A4A47BD6222D8FA60044F1E2 /* OblastApp-UITests */ = {
-			isa = PBXGroup;
-			children = (
-				A4A47BD7222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift */,
-				A4A47BD9222D8FA60044F1E2 /* Info.plist */,
-			);
-			path = "OblastApp-UITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4A47BDC222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastApp" */;
 			buildPhases = (
+				3FB35FDE93A577F7B3F09E41 /* [CP] Check Pods Manifest.lock */,
 				A4A47BB0222D8FA60044F1E2 /* Sources */,
 				A4A47BB1222D8FA60044F1E2 /* Frameworks */,
 				A4A47BB2222D8FA60044F1E2 /* Resources */,
+				01F4B7081EA0D46171803DB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,42 +158,6 @@
 			productReference = A4A47BB4222D8FA60044F1E2 /* OblastApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A4A47BC7222D8FA60044F1E2 /* OblastAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4A47BDF222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppTests" */;
-			buildPhases = (
-				A4A47BC4222D8FA60044F1E2 /* Sources */,
-				A4A47BC5222D8FA60044F1E2 /* Frameworks */,
-				A4A47BC6222D8FA60044F1E2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4A47BCA222D8FA60044F1E2 /* PBXTargetDependency */,
-			);
-			name = OblastAppTests;
-			productName = "Faxtion Version 1- Single-ViewTests";
-			productReference = A4A47BC8222D8FA60044F1E2 /* OblastAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A4A47BD2222D8FA60044F1E2 /* OblastAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4A47BE2222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppUITests" */;
-			buildPhases = (
-				A4A47BCF222D8FA60044F1E2 /* Sources */,
-				A4A47BD0222D8FA60044F1E2 /* Frameworks */,
-				A4A47BD1222D8FA60044F1E2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4A47BD5222D8FA60044F1E2 /* PBXTargetDependency */,
-			);
-			name = OblastAppUITests;
-			productName = "Faxtion Version 1- Single-ViewUITests";
-			productReference = A4A47BD3222D8FA60044F1E2 /* OblastAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,22 +165,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Egbert Sayers";
 				TargetAttributes = {
 					A4A47BB3222D8FA60044F1E2 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
-					};
-					A4A47BC7222D8FA60044F1E2 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A4A47BB3222D8FA60044F1E2;
-					};
-					A4A47BD2222D8FA60044F1E2 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A4A47BB3222D8FA60044F1E2;
 					};
 				};
 			};
@@ -227,8 +189,6 @@
 			projectRoot = "";
 			targets = (
 				A4A47BB3222D8FA60044F1E2 /* OblastApp */,
-				A4A47BC7222D8FA60044F1E2 /* OblastAppTests */,
-				A4A47BD2222D8FA60044F1E2 /* OblastAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,27 +198,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */,
+				8CC6521622B93E5A0051AB91 /* GoogleService-Info.plist in Resources */,
 				A4A47BC2222D8FA60044F1E2 /* LaunchScreen.storyboard in Resources */,
+				8C4C2CF622A14EB1008A356E /* csvjson.json in Resources */,
 				A4A47BBF222D8FA60044F1E2 /* Assets.xcassets in Resources */,
 				A4A47BBD222D8FA60044F1E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4A47BC6222D8FA60044F1E2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BD1222D8FA60044F1E2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F4B7081EA0D46171803DB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OblastApp/Pods-OblastApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OblastApp/Pods-OblastApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB35FDE93A577F7B3F09E41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OblastApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4A47BB0222D8FA60044F1E2 /* Sources */ = {
@@ -267,41 +263,15 @@
 			files = (
 				A4851035224FE52000A521EF /* searchViewController.swift in Sources */,
 				A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */,
+				8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */,
 				A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */,
 				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BC4222D8FA60044F1E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4A47BCD222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4A47BCF222D8FA60044F1E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4A47BD8222D8FA60044F1E2 /* Faxtion_Version_1__Single_ViewUITests.swift in Sources */,
+				8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */,
+				8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A4A47BCA222D8FA60044F1E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4A47BB3222D8FA60044F1E2 /* OblastApp */;
-			targetProxy = A4A47BC9222D8FA60044F1E2 /* PBXContainerItemProxy */;
-		};
-		A4A47BD5222D8FA60044F1E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4A47BB3222D8FA60044F1E2 /* OblastApp */;
-			targetProxy = A4A47BD4222D8FA60044F1E2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A4A47BBB222D8FA60044F1E2 /* Main.storyboard */ = {
@@ -337,6 +307,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -344,6 +315,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -394,6 +366,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -401,6 +374,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,6 +406,7 @@
 		};
 		A4A47BDD222D8FA60044F1E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF29FD089087C846FC534708 /* Pods-OblastApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,13 +416,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oblast.oblastApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A4A47BDE222D8FA60044F1E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB47F604F1E9B9B2458CBA4 /* Pods-OblastApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,70 +433,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oblast.oblastApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A4A47BE0222D8FA60044F1E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-ViewTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-ViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OblastApp.app/OblastApp";
-			};
-			name = Debug;
-		};
-		A4A47BE1222D8FA60044F1E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-ViewTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-ViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OblastApp.app/OblastApp";
-			};
-			name = Release;
-		};
-		A4A47BE3222D8FA60044F1E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-ViewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-ViewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Faxtion Version 1- Single-View";
-			};
-			name = Debug;
-		};
-		A4A47BE4222D8FA60044F1E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Faxtion Version 1- Single-ViewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FXTN.Faxtion-Version-1--Single-ViewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Faxtion Version 1- Single-View";
 			};
 			name = Release;
 		};
@@ -541,24 +455,6 @@
 			buildConfigurations = (
 				A4A47BDD222D8FA60044F1E2 /* Debug */,
 				A4A47BDE222D8FA60044F1E2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4A47BDF222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4A47BE0222D8FA60044F1E2 /* Debug */,
-				A4A47BE1222D8FA60044F1E2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4A47BE2222D8FA60044F1E2 /* Build configuration list for PBXNativeTarget "OblastAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4A47BE3222D8FA60044F1E2 /* Debug */,
-				A4A47BE4222D8FA60044F1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
