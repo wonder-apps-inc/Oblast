@@ -17,11 +17,27 @@ class logInViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
     
     @IBAction func didTapLogin(sender: UIButton) {
+        let loginManager = AuthenticationManager()
+        guard let email = emailField.text, let password = passwordField.text else { return }
+        loginManager.signIn(email: email, pass: password) {[weak self] (success) in
+            guard let `self` = self else { return }
+            var message: String = ""
+            if (success) {
+                message = "User was sucessfully logged in."
+            } else {
+                message = "There was an error."
+            }
+            let alertController = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+            self.display(alertController: alertController)
+        }
        
     }
     
     
-   
+    func display(alertController: UIAlertController) {
+        self.present(alertController, animated: true, completion: nil)
+    }
         
 
 
