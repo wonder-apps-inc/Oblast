@@ -26,9 +26,17 @@
  */
 
 import UIKit
+import Firebase
 
 class searchViewController: UITableViewController, UISearchBarDelegate {
  
+    
+    
+    //I think firebase stuff goes here.
+//    let ref = Database.database().reference(withPath: "oblast")
+//    let rootRef = Database.database().reference()
+//    let childRef = Database.database().reference(withPath: "oblast")
+
     
     
     

@@ -11,9 +11,7 @@ import Firebase
 
 class zipCodeSearchCell: UITableViewCell {
     
-    let ref = Database.database().reference(withPath: "oblast")
-    let rootRef = Database.database().reference()
-
+  
     
     
     @IBOutlet weak var zipCodeLabel: UILabel!
