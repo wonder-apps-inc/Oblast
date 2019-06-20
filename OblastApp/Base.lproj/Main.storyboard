@@ -159,7 +159,7 @@
                                     <outlet property="stateLabel" destination="LhV-bd-Y48" id="Cyt-hc-SNq"/>
                                     <outlet property="zipCodeLabel" destination="yeO-aR-4Vk" id="qxD-ys-FZe"/>
                                     <outlet property="zipNumberLabel" destination="hNL-l7-EBw" id="syb-4k-IwK"/>
-                                    <segue destination="mQK-9h-l4Y" kind="showDetail" id="Faw-U9-GH2"/>
+                                    <segue destination="ZJ8-UG-5OU" kind="presentation" id="819-YR-WLj"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -176,41 +176,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zzv-Oi-XbE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2044" y="113.79310344827587"/>
-        </scene>
-        <!--Forum Selection-->
-        <scene sceneID="Z06-7I-6gw">
-            <objects>
-                <collectionViewController id="JfM-IV-NEp" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="t8Y-aG-qUT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Av7-zT-Gpt">
-                            <size key="itemSize" width="373" height="124"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Hym-XM-3Ec">
-                                <rect key="frame" x="1" y="0.0" width="373" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="373" height="124"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </view>
-                            </collectionViewCell>
-                        </cells>
-                        <connections>
-                            <outlet property="dataSource" destination="JfM-IV-NEp" id="0O7-Yg-8Sc"/>
-                            <outlet property="delegate" destination="JfM-IV-NEp" id="hO4-dV-np4"/>
-                        </connections>
-                    </collectionView>
-                    <navigationItem key="navigationItem" title="Forum Selection" id="zS3-IO-InF"/>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kzu-iw-Gle" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3818.4000000000001" y="117.48768472906404"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3AJ-TJ-R5Z">
@@ -242,16 +207,6 @@
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Civic Engagement"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEx-Ji-KdD">
-                                <rect key="frame" x="50" y="287" width="275" height="30"/>
-                                <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Community &amp; Housing"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyi-ot-920">
-                                <rect key="frame" x="50" y="325" width="275" height="30"/>
-                                <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Education"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJm-9z-2c9">
                                 <rect key="frame" x="50" y="363" width="275" height="30"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -276,11 +231,6 @@
                                 <rect key="frame" x="50" y="515" width="275" height="30"/>
                                 <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Leadership"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJA-LP-dJr">
-                                <rect key="frame" x="50" y="553" width="275" height="30"/>
-                                <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Partying &amp; Night Life"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgI-t7-g6K">
                                 <rect key="frame" x="50" y="591" width="275" height="30"/>
@@ -324,13 +274,9 @@
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="ZtW-iR-mbp" secondAttribute="trailing" id="4Se-z1-QP2"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="mYR-FZ-wJH" secondAttribute="leading" id="4mg-pY-t5q"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="mVP-BV-jjP" secondAttribute="leading" id="7wz-uf-G5e"/>
-                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="Wyi-ot-920" secondAttribute="leading" id="CxZ-pe-59R"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="XgI-t7-g6K" secondAttribute="trailing" id="F9d-Zm-MAk"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="NCU-p0-Umd" secondAttribute="trailing" id="H8Y-uB-liq"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="qDa-sX-iY0" secondAttribute="trailing" id="Hnn-ea-NOR"/>
-                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="GEx-Ji-KdD" secondAttribute="trailing" id="Hpo-kd-qVB"/>
-                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="GEx-Ji-KdD" secondAttribute="leading" id="Nv5-Yy-45V"/>
-                            <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="BJA-LP-dJr" secondAttribute="leading" id="P3w-rZ-7bl"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="mYR-FZ-wJH" secondAttribute="trailing" id="TSM-U2-3xe"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="mVP-BV-jjP" secondAttribute="trailing" id="TsM-eW-a2c"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="F46-yN-L7d" secondAttribute="trailing" id="VDk-he-5gz"/>
@@ -338,12 +284,10 @@
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="HBx-gB-i6e" secondAttribute="leading" constant="50" id="XGe-4I-Sxc"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="XgI-t7-g6K" secondAttribute="leading" id="a0K-jf-yzb"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="centerX" secondItem="rLT-bE-dcW" secondAttribute="centerX" id="ao1-eP-PJD"/>
-                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="BJA-LP-dJr" secondAttribute="trailing" id="bNz-1S-guY"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="top" secondItem="uFV-jo-peS" secondAttribute="top" constant="249" id="dxO-jS-Hvs"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="centerX" secondItem="EIA-xS-N6z" secondAttribute="centerX" id="eAn-3u-O16"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="ulA-DA-vOB" secondAttribute="leading" id="fHE-Zy-fRP"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="52k-Hg-Ugf" secondAttribute="trailing" id="frj-C7-oca"/>
-                            <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="Wyi-ot-920" secondAttribute="trailing" id="mqS-EH-Yrs"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="gJm-9z-2c9" secondAttribute="trailing" id="n52-S3-KUg"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="v2U-Tf-jXb" secondAttribute="leading" id="o0D-CU-o1X"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="ZtW-iR-mbp" secondAttribute="leading" id="qni-3k-pcq"/>
@@ -351,14 +295,13 @@
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="qDa-sX-iY0" secondAttribute="leading" id="sgF-V0-l7U"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="trailing" secondItem="v2U-Tf-jXb" secondAttribute="trailing" id="siO-1D-OO8"/>
                             <constraint firstItem="3tq-xl-q9X" firstAttribute="leading" secondItem="F46-yN-L7d" secondAttribute="leading" id="w9V-kG-pZD"/>
-                            <constraint firstItem="GEx-Ji-KdD" firstAttribute="top" secondItem="3tq-xl-q9X" secondAttribute="bottom" constant="8" symbolic="YES" id="yQw-Jv-s88"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HBx-gB-i6e"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1e-Br-EGA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5050.3999999999996" y="71.674876847290648"/>
+            <point key="canvasLocation" x="5992.8000000000002" y="71.674876847290648"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="YLU-cK-0SY">
@@ -431,23 +374,74 @@
             </objects>
             <point key="canvasLocation" x="1101.5999999999999" y="113.79310344827587"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ydr-Qj-Hyx">
+        <!--View Controller-->
+        <scene sceneID="dGC-Qn-ZLD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mQK-9h-l4Y" sceneMemberID="viewController">
+                <viewController id="OW8-U2-aNK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wJo-N9-QFg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXR-nR-a49">
+                                <rect key="frame" x="0.0" y="79" width="375" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJA-LP-dJr">
+                                        <rect key="frame" x="50" y="124" width="275" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Partying &amp; Night Life"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEx-Ji-KdD">
+                                <rect key="frame" x="50" y="133" width="275" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Community &amp; Housing"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyi-ot-920">
+                                <rect key="frame" x="50" y="171" width="275" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.47776179019999998" green="1" blue="0.9909014612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Education"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6xg-uW-CkZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sGT-JT-f10">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="HtB-kT-CpY">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lx2-0R-ehV">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDh-r6-OJA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4824.8000000000002" y="95.320197044334975"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w0L-5R-BEc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZJ8-UG-5OU" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PrB-fC-FhB">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VFG-sR-rxB">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="JfM-IV-NEp" kind="relationship" relationship="rootViewController" id="cTq-Gq-sQJ"/>
+                        <segue destination="OW8-U2-aNK" kind="relationship" relationship="rootViewController" id="Lu2-6V-xML"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qn2-s3-NIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ef-kF-rgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2876" y="117.48768472906404"/>
+            <point key="canvasLocation" x="3882.4000000000001" y="95.320197044334975"/>
         </scene>
     </scenes>
 </document>
