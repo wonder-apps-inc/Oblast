@@ -9,19 +9,20 @@
 
 /*
  
- Going to get the search bar working in the storyboard first, then change verything over to progmatic code. NO longer using storyboards
+
  
  
- NEED TO ADD THE LABEL in the table view TO SHOW WHAT STATE THE TOWN IS FROM.
+ NEED TO ADD THE LABEL in the table view TO SHOW WHAT STATE THE TOWN IS FROM. 6/10/19
  
  
  Goals:
  
- Create FireBase DB.
- Create Log In FB stuff
- Hook up LogIn VC.
--When click on the town cell it takes you to 'forums' screen.
+ Create FireBase DB. 6/10/19
+ Create Log In FB stuff 6/10/19
+ Hook up LogIn VC. 6/10/19
+When click on the town cell it takes you to 'forums' screen. - done 6/10/19
  
+ how to filter out/hook up the corresponding towns with the right forum buttons so that only those town seee that towns topic.
  
  */
 
@@ -29,14 +30,6 @@ import UIKit
 import Firebase
 
 class searchViewController: UITableViewController, UISearchBarDelegate {
- 
-    
-    
-    //I think firebase stuff goes here.
-//    let ref = Database.database().reference(withPath: "oblast")
-//    let rootRef = Database.database().reference()
-//    let childRef = Database.database().reference(withPath: "oblast")
-
     
     
     
