@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C4C2CF622A14EB1008A356E /* csvjson.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C4C2CF522A14EB1008A356E /* csvjson.json */; };
+		8C557C5222E385BD00829C9D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557C5122E385BD00829C9D /* Constant.swift */; };
 		8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */; };
 		8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95D2DA228D9CC00026FAAF /* zipCodes.swift */; };
 		8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */; };
@@ -27,6 +28,7 @@
 		0BB47F604F1E9B9B2458CBA4 /* Pods-OblastApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OblastApp.release.xcconfig"; path = "Target Support Files/Pods-OblastApp/Pods-OblastApp.release.xcconfig"; sourceTree = "<group>"; };
 		53528C39FBCAFC9242EF273C /* Pods_OblastApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OblastApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4C2CF522A14EB1008A356E /* csvjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = csvjson.json; sourceTree = "<group>"; };
+		8C557C5122E385BD00829C9D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodeSearchCell.swift; sourceTree = "<group>"; };
 		8C95D2DA228D9CC00026FAAF /* zipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodes.swift; sourceTree = "<group>"; };
 		8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcodeJSON.json; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 				0BB47F604F1E9B9B2458CBA4 /* Pods-OblastApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C557C5022E385AC00829C9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8C557C5122E385BD00829C9D /* Constant.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		8C95D2D9228D9CB40026FAAF /* Model */ = {
@@ -113,6 +123,7 @@
 		A4A47BB6222D8FA60044F1E2 /* OblastApp */ = {
 			isa = PBXGroup;
 			children = (
+				8C557C5022E385AC00829C9D /* Utilities */,
 				8CC6521722B9507A0051AB91 /* Helper */,
 				8C95D2DC228D9D130026FAAF /* ViewControllers */,
 				8C95D2D9228D9CB40026FAAF /* Model */,
@@ -264,6 +275,7 @@
 				A4851035224FE52000A521EF /* searchViewController.swift in Sources */,
 				A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */,
 				8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */,
+				8C557C5222E385BD00829C9D /* Constant.swift in Sources */,
 				A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */,
 				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
 				8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */,

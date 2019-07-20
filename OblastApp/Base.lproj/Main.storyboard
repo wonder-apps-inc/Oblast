@@ -112,11 +112,11 @@
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="zipCode" rowHeight="81" id="Vgg-3u-wNT" customClass="zipCodeSearchCell" customModule="OblastApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="zipCode" rowHeight="81" id="Vgg-3u-wNT" customClass="zipCodeSearchCell" customModule="OblastApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="375" height="81"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vgg-3u-wNT" id="6Rj-Av-u1C">
-                                    <rect key="frame" x="0.0" y="0.0" width="307" height="80.666666666666671"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="80.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeO-aR-4Vk">
@@ -136,7 +136,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNL-l7-EBw">
-                                            <rect key="frame" x="161.33333333333334" y="18" width="41.666666666666657" height="20"/>
+                                            <rect key="frame" x="195.33333333333334" y="18" width="41.666666666666657" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -304,7 +304,7 @@
             </objects>
             <point key="canvasLocation" x="4824.8000000000002" y="95.320197044334975"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Politics-->
         <scene sceneID="X5t-ty-TXP">
             <objects>
                 <tableViewController id="P3w-6m-pik" sceneMemberID="viewController">
@@ -313,11 +313,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Nw3-Ns-NgF">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="179" id="Nw3-Ns-NgF">
+                                <rect key="frame" x="0.0" y="28" width="375" height="179"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nw3-Ns-NgF" id="3dN-HA-ri8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="178.66666666666666"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -327,10 +327,46 @@
                             <outlet property="delegate" destination="P3w-6m-pik" id="C75-kr-4XG"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Politics" id="j14-hu-8zS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ZEj-kl-uUJ">
+                            <connections>
+                                <segue destination="c9X-XR-6Qu" kind="show" id="ytT-3Q-5Xe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odB-d2-kbG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5783" y="46"/>
+            <point key="canvasLocation" x="5781.6000000000004" y="45.812807881773402"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vFg-I4-K9G">
+            <objects>
+                <viewController id="c9X-XR-6Qu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xOe-v4-gLb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KN4-P2-Mys">
+                                <rect key="frame" x="34" y="124" width="325" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxx-Rh-H5N">
+                                <rect key="frame" x="170" y="229" width="86" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="U93-fo-iY7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kmm-XH-Dd4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6669.6000000000004" y="-148.52216748768473"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w0L-5R-BEc">
