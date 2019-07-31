@@ -6,6 +6,8 @@ target 'OblastApp' do
   use_frameworks!
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+pod 'SwiftyComments', :git => 'https://github.com/tsucres/SwiftyComments.git'
+
   # Pods for OblastApp
 
 end
