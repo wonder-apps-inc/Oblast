@@ -11,6 +11,14 @@
 		8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */; };
 		8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95D2DA228D9CC00026FAAF /* zipCodes.swift */; };
 		8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */; };
+		8CA7E01B22F24D66001E98EC /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E01A22F24D66001E98EC /* CommentViewController.swift */; };
+		8CA7E01D22F250E0001E98EC /* politicsCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E01C22F250E0001E98EC /* politicsCommentCell.swift */; };
+		8CA7E01F22F25202001E98EC /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E01E22F25202001E98EC /* CommentCell.swift */; };
+		8CA7E02122F252AA001E98EC /* AbstractComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02022F252AA001E98EC /* AbstractComment.swift */; };
+		8CA7E02322F252CA001E98EC /* CommentsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02222F252CA001E98EC /* CommentsViewDelegate.swift */; };
+		8CA7E02522F39977001E98EC /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02422F39977001E98EC /* CommentView.swift */; };
+		8CA7E02722F39C83001E98EC /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02622F39C83001E98EC /* DemoData.swift */; };
+		8CA7E02922F39D8B001E98EC /* LorumSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02822F39D8B001E98EC /* LorumSwiftum.swift */; };
 		8CC6521622B93E5A0051AB91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */; };
 		8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */; };
 		A4851035224FE52000A521EF /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* searchViewController.swift */; };
@@ -25,11 +33,20 @@
 
 /* Begin PBXFileReference section */
 		0BB47F604F1E9B9B2458CBA4 /* Pods-OblastApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OblastApp.release.xcconfig"; path = "Target Support Files/Pods-OblastApp/Pods-OblastApp.release.xcconfig"; sourceTree = "<group>"; };
+		209C0D0DDF078847A4D0F0AB /* Pods-OblastApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OblastApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OblastApp/Pods-OblastApp.debug.xcconfig"; sourceTree = "<group>"; };
 		53528C39FBCAFC9242EF273C /* Pods_OblastApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OblastApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4C2CF522A14EB1008A356E /* csvjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = csvjson.json; sourceTree = "<group>"; };
 		8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodeSearchCell.swift; sourceTree = "<group>"; };
 		8C95D2DA228D9CC00026FAAF /* zipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodes.swift; sourceTree = "<group>"; };
 		8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcodeJSON.json; sourceTree = "<group>"; };
+		8CA7E01A22F24D66001E98EC /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		8CA7E01C22F250E0001E98EC /* politicsCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = politicsCommentCell.swift; sourceTree = "<group>"; };
+		8CA7E01E22F25202001E98EC /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		8CA7E02022F252AA001E98EC /* AbstractComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractComment.swift; sourceTree = "<group>"; };
+		8CA7E02222F252CA001E98EC /* CommentsViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewDelegate.swift; sourceTree = "<group>"; };
+		8CA7E02422F39977001E98EC /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		8CA7E02622F39C83001E98EC /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		8CA7E02822F39D8B001E98EC /* LorumSwiftum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LorumSwiftum.swift; sourceTree = "<group>"; };
 		8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		A4851034224FE52000A521EF /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +58,7 @@
 		A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A47BC1222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4A47BC3222D8FA60044F1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F51956D47717F8C6F6BBA6 /* Pods-OblastApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OblastApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OblastApp/Pods-OblastApp.release.xcconfig"; sourceTree = "<group>"; };
 		CF29FD089087C846FC534708 /* Pods-OblastApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OblastApp.debug.xcconfig"; path = "Target Support Files/Pods-OblastApp/Pods-OblastApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +79,8 @@
 			children = (
 				CF29FD089087C846FC534708 /* Pods-OblastApp.debug.xcconfig */,
 				0BB47F604F1E9B9B2458CBA4 /* Pods-OblastApp.release.xcconfig */,
+				209C0D0DDF078847A4D0F0AB /* Pods-OblastApp.debug.xcconfig */,
+				B4F51956D47717F8C6F6BBA6 /* Pods-OblastApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -69,6 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				8C95D2DA228D9CC00026FAAF /* zipCodes.swift */,
+				8CA7E01C22F250E0001E98EC /* politicsCommentCell.swift */,
+				8CA7E02222F252CA001E98EC /* CommentsViewDelegate.swift */,
+				8CA7E02022F252AA001E98EC /* AbstractComment.swift */,
+				8CA7E01E22F25202001E98EC /* CommentCell.swift */,
+				8CA7E02422F39977001E98EC /* CommentView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -80,6 +105,7 @@
 				A4851034224FE52000A521EF /* searchViewController.swift */,
 				A4851036224FE5AF00A521EF /* logInViewController.swift */,
 				8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */,
+				8CA7E01A22F24D66001E98EC /* CommentViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -88,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */,
+				8CA7E02622F39C83001E98EC /* DemoData.swift */,
+				8CA7E02822F39D8B001E98EC /* LorumSwiftum.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -216,20 +244,24 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OblastApp/Pods-OblastApp-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-OblastApp/Pods-OblastApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyComments/SwiftyComments.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyComments.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OblastApp/Pods-OblastApp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OblastApp/Pods-OblastApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3FB35FDE93A577F7B3F09E41 /* [CP] Check Pods Manifest.lock */ = {
@@ -237,15 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OblastApp-checkManifestLockResult.txt",
 			);
@@ -261,13 +289,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA7E01B22F24D66001E98EC /* CommentViewController.swift in Sources */,
+				8CA7E02922F39D8B001E98EC /* LorumSwiftum.swift in Sources */,
+				8CA7E02522F39977001E98EC /* CommentView.swift in Sources */,
+				8CA7E02722F39C83001E98EC /* DemoData.swift in Sources */,
 				A4851035224FE52000A521EF /* searchViewController.swift in Sources */,
 				A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */,
+				8CA7E01D22F250E0001E98EC /* politicsCommentCell.swift in Sources */,
 				8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */,
+				8CA7E01F22F25202001E98EC /* CommentCell.swift in Sources */,
 				A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */,
 				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
 				8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */,
+				8CA7E02322F252CA001E98EC /* CommentsViewDelegate.swift in Sources */,
 				8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */,
+				8CA7E02122F252AA001E98EC /* AbstractComment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +331,7 @@
 /* Begin XCBuildConfiguration section */
 		A4A47BDA222D8FA60044F1E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB47F604F1E9B9B2458CBA4 /* Pods-OblastApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
