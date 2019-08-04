@@ -18,12 +18,12 @@ open class SwipeActionAppearance {
     open var swipeActionHighlightedTextColor: UIColor = .white
     open var swipeActionTextFont: UIFont = UIFont.systemFont(ofSize: 17.0, weight: .bold)
     
-    open var swipeActionImage: UIImage = SwipeActionAppearance.getCollapseImage()
-    open var swipeActionHighlightedImage: UIImage = SwipeActionAppearance.getCollapseImage()
-    static func getCollapseImage() -> UIImage {
-        let bundle = Bundle(for: CommentsViewController.self)
-        return UIImage(named: "collapse", in: bundle, compatibleWith: nil)!
-    }
+//    open var swipeActionImage: UIImage = SwipeActionAppearance.getCollapseImage()
+//    open var swipeActionHighlightedImage: UIImage = SwipeActionAppearance.getCollapseImage()
+//    static func getCollapseImage() -> UIImage {
+//        let bundle = Bundle(for: CommentsViewController.self)
+//        return UIImage(named: "collapse", in: bundle, compatibleWith: nil)!
+//    }
     
 }
 /// ViewController displaying expandable comments.
@@ -200,8 +200,8 @@ open class CommentsViewController: UITableViewController, SwipeTableViewCellDele
         collapseAction.textColor = swipeActionAppearance.swipeActionTextColor
         collapseAction.highlightedTextColor = swipeActionAppearance.swipeActionHighlightedTextColor
         collapseAction.font = swipeActionAppearance.swipeActionTextFont
-        collapseAction.image = swipeActionAppearance.swipeActionImage
-        collapseAction.highlightedImage = swipeActionAppearance.swipeActionHighlightedImage
+//        collapseAction.image = swipeActionAppearance.swipeActionImage
+//        collapseAction.highlightedImage = swipeActionAppearance.swipeActionHighlightedImage
         return [collapseAction]
     }
     

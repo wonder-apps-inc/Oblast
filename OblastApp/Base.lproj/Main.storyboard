@@ -159,6 +159,7 @@
                                     <outlet property="stateLabel" destination="LhV-bd-Y48" id="Cyt-hc-SNq"/>
                                     <outlet property="zipCodeLabel" destination="yeO-aR-4Vk" id="qxD-ys-FZe"/>
                                     <outlet property="zipNumberLabel" destination="hNL-l7-EBw" id="syb-4k-IwK"/>
+                                    <segue destination="oOZ-Zr-tSM" kind="show" id="uEo-36-dFb"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -175,6 +176,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zzv-Oi-XbE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2044" y="113.79310344827587"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oER-uP-Yvk">
+            <objects>
+                <viewController id="oOZ-Zr-tSM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X3O-c5-iam">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oow-F0-XtI">
+                                <rect key="frame" x="164" y="234" width="66" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Qna-AP-SDb" kind="show" id="g3m-rf-GPw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="COa-Bd-sWl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZCW-3G-AhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2940" y="113.79310344827587"/>
+        </scene>
+        <!--Politics Comment View Controller-->
+        <scene sceneID="S0O-cT-wxG">
+            <objects>
+                <viewController id="Qna-AP-SDb" customClass="politicsCommentViewController" customModule="OblastApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ART-4u-u3p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gal-7W-vna">
+                                <rect key="frame" x="0.0" y="88" width="399" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="simpleCommentCellId" id="SVF-3U-bDl" customClass="politicsCommentCell" customModule="OblastApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="399" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SVF-3U-bDl" id="iT9-en-K3j">
+                                            <rect key="frame" x="0.0" y="0.0" width="399" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="s7p-6N-bv6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nty-QB-Y7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3892" y="109.35960591133005"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="YLU-cK-0SY">

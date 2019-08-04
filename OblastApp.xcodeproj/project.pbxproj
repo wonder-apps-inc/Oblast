@@ -11,14 +11,12 @@
 		8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */; };
 		8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95D2DA228D9CC00026FAAF /* zipCodes.swift */; };
 		8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */; };
-		8CA7E01B22F24D66001E98EC /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E01A22F24D66001E98EC /* CommentViewController.swift */; };
-		8CA7E01D22F250E0001E98EC /* politicsCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E01C22F250E0001E98EC /* politicsCommentCell.swift */; };
-		8CA7E01F22F25202001E98EC /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E01E22F25202001E98EC /* CommentCell.swift */; };
-		8CA7E02122F252AA001E98EC /* AbstractComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02022F252AA001E98EC /* AbstractComment.swift */; };
-		8CA7E02322F252CA001E98EC /* CommentsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02222F252CA001E98EC /* CommentsViewDelegate.swift */; };
-		8CA7E02522F39977001E98EC /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02422F39977001E98EC /* CommentView.swift */; };
-		8CA7E02722F39C83001E98EC /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02622F39C83001E98EC /* DemoData.swift */; };
-		8CA7E02922F39D8B001E98EC /* LorumSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E02822F39D8B001E98EC /* LorumSwiftum.swift */; };
+		8CA7E03222F719EB001E98EC /* politicsCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E03122F719EB001E98EC /* politicsCommentCell.swift */; };
+		8CA7E03422F71A56001E98EC /* politicsCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E03322F71A56001E98EC /* politicsCommentViewController.swift */; };
+		8CA7E03622F71BC6001E98EC /* AbstractComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E03522F71BC6001E98EC /* AbstractComment.swift */; };
+		8CA7E03A22F7221A001E98EC /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E03922F7221A001E98EC /* DemoData.swift */; };
+		8CA7E03C22F7225D001E98EC /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E03B22F7225D001E98EC /* LoremSwiftum.swift */; };
+		8CA7E03E22F72934001E98EC /* ForumSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7E03D22F72934001E98EC /* ForumSelectionViewController.swift */; };
 		8CC6521622B93E5A0051AB91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */; };
 		8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */; };
 		A4851035224FE52000A521EF /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* searchViewController.swift */; };
@@ -39,14 +37,12 @@
 		8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodeSearchCell.swift; sourceTree = "<group>"; };
 		8C95D2DA228D9CC00026FAAF /* zipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodes.swift; sourceTree = "<group>"; };
 		8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcodeJSON.json; sourceTree = "<group>"; };
-		8CA7E01A22F24D66001E98EC /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
-		8CA7E01C22F250E0001E98EC /* politicsCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = politicsCommentCell.swift; sourceTree = "<group>"; };
-		8CA7E01E22F25202001E98EC /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
-		8CA7E02022F252AA001E98EC /* AbstractComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractComment.swift; sourceTree = "<group>"; };
-		8CA7E02222F252CA001E98EC /* CommentsViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewDelegate.swift; sourceTree = "<group>"; };
-		8CA7E02422F39977001E98EC /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
-		8CA7E02622F39C83001E98EC /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
-		8CA7E02822F39D8B001E98EC /* LorumSwiftum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LorumSwiftum.swift; sourceTree = "<group>"; };
+		8CA7E03122F719EB001E98EC /* politicsCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = politicsCommentCell.swift; sourceTree = "<group>"; };
+		8CA7E03322F71A56001E98EC /* politicsCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = politicsCommentViewController.swift; sourceTree = "<group>"; };
+		8CA7E03522F71BC6001E98EC /* AbstractComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractComment.swift; sourceTree = "<group>"; };
+		8CA7E03922F7221A001E98EC /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		8CA7E03B22F7225D001E98EC /* LoremSwiftum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremSwiftum.swift; sourceTree = "<group>"; };
+		8CA7E03D22F72934001E98EC /* ForumSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumSelectionViewController.swift; sourceTree = "<group>"; };
 		8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		A4851034224FE52000A521EF /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
@@ -89,11 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				8C95D2DA228D9CC00026FAAF /* zipCodes.swift */,
-				8CA7E01C22F250E0001E98EC /* politicsCommentCell.swift */,
-				8CA7E02222F252CA001E98EC /* CommentsViewDelegate.swift */,
-				8CA7E02022F252AA001E98EC /* AbstractComment.swift */,
-				8CA7E01E22F25202001E98EC /* CommentCell.swift */,
-				8CA7E02422F39977001E98EC /* CommentView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,17 +96,27 @@
 				A4851034224FE52000A521EF /* searchViewController.swift */,
 				A4851036224FE5AF00A521EF /* logInViewController.swift */,
 				8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */,
-				8CA7E01A22F24D66001E98EC /* CommentViewController.swift */,
+				8CA7E03D22F72934001E98EC /* ForumSelectionViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8CA7E03022F719B8001E98EC /* CommentStuff */ = {
+			isa = PBXGroup;
+			children = (
+				8CA7E03122F719EB001E98EC /* politicsCommentCell.swift */,
+				8CA7E03322F71A56001E98EC /* politicsCommentViewController.swift */,
+				8CA7E03522F71BC6001E98EC /* AbstractComment.swift */,
+				8CA7E03922F7221A001E98EC /* DemoData.swift */,
+				8CA7E03B22F7225D001E98EC /* LoremSwiftum.swift */,
+			);
+			path = CommentStuff;
 			sourceTree = "<group>";
 		};
 		8CC6521722B9507A0051AB91 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
 				8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */,
-				8CA7E02622F39C83001E98EC /* DemoData.swift */,
-				8CA7E02822F39D8B001E98EC /* LorumSwiftum.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -141,6 +142,7 @@
 		A4A47BB6222D8FA60044F1E2 /* OblastApp */ = {
 			isa = PBXGroup;
 			children = (
+				8CA7E03022F719B8001E98EC /* CommentStuff */,
 				8CC6521722B9507A0051AB91 /* Helper */,
 				8C95D2DC228D9D130026FAAF /* ViewControllers */,
 				8C95D2D9228D9CB40026FAAF /* Model */,
@@ -289,21 +291,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CA7E01B22F24D66001E98EC /* CommentViewController.swift in Sources */,
-				8CA7E02922F39D8B001E98EC /* LorumSwiftum.swift in Sources */,
-				8CA7E02522F39977001E98EC /* CommentView.swift in Sources */,
-				8CA7E02722F39C83001E98EC /* DemoData.swift in Sources */,
+				8CA7E03A22F7221A001E98EC /* DemoData.swift in Sources */,
 				A4851035224FE52000A521EF /* searchViewController.swift in Sources */,
 				A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */,
-				8CA7E01D22F250E0001E98EC /* politicsCommentCell.swift in Sources */,
 				8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */,
-				8CA7E01F22F25202001E98EC /* CommentCell.swift in Sources */,
+				8CA7E03E22F72934001E98EC /* ForumSelectionViewController.swift in Sources */,
 				A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */,
 				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
+				8CA7E03622F71BC6001E98EC /* AbstractComment.swift in Sources */,
 				8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */,
-				8CA7E02322F252CA001E98EC /* CommentsViewDelegate.swift in Sources */,
 				8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */,
-				8CA7E02122F252AA001E98EC /* AbstractComment.swift in Sources */,
+				8CA7E03422F71A56001E98EC /* politicsCommentViewController.swift in Sources */,
+				8CA7E03C22F7225D001E98EC /* LoremSwiftum.swift in Sources */,
+				8CA7E03222F719EB001E98EC /* politicsCommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
