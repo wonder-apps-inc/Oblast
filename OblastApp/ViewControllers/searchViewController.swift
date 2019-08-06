@@ -12,7 +12,6 @@
 
  
  
- NEED TO ADD THE LABEL in the table view TO SHOW WHAT STATE THE TOWN IS FROM. 6/10/19
  
  
  Goals:

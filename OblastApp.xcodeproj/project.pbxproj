@@ -12,11 +12,14 @@
 		8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95D2DA228D9CC00026FAAF /* zipCodes.swift */; };
 		8C95D2DE228DA6A10026FAAF /* zipcodeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */; };
 		8CC6521622B93E5A0051AB91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */; };
-		8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */; };
+		8CC6E93B22F9B167002333BC /* politicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6E93A22F9B167002333BC /* politicsTableViewController.swift */; };
+		8CC6E93D22F9C92A002333BC /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6E93C22F9C92A002333BC /* OnlineUsersTableViewController.swift */; };
+		8CC6E93F22F9E9B8002333BC /* zipcodeJSON copy.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CC6E93E22F9E9B8002333BC /* zipcodeJSON copy.json */; };
+		8CD8CDA922F8BC83000D7027 /* politicsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8CDA822F8BC83000D7027 /* politicsItem.swift */; };
+		8CD8CDAB22F8BCB0000D7027 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8CDAA22F8BCB0000D7027 /* User.swift */; };
 		A4851035224FE52000A521EF /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* searchViewController.swift */; };
 		A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851036224FE5AF00A521EF /* logInViewController.swift */; };
 		A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */; };
-		A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */; };
 		A4A47BBD222D8FA60044F1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BBB222D8FA60044F1E2 /* Main.storyboard */; };
 		A4A47BBF222D8FA60044F1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */; };
 		A4A47BC2222D8FA60044F1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */; };
@@ -31,12 +34,15 @@
 		8C95D2DA228D9CC00026FAAF /* zipCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zipCodes.swift; sourceTree = "<group>"; };
 		8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcodeJSON.json; sourceTree = "<group>"; };
 		8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		8CC6E93A22F9B167002333BC /* politicsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = politicsTableViewController.swift; sourceTree = "<group>"; };
+		8CC6E93C22F9C92A002333BC /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersTableViewController.swift; sourceTree = "<group>"; };
+		8CC6E93E22F9E9B8002333BC /* zipcodeJSON copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "zipcodeJSON copy.json"; sourceTree = "<group>"; };
+		8CD8CDA822F8BC83000D7027 /* politicsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = politicsItem.swift; sourceTree = "<group>"; };
+		8CD8CDAA22F8BCB0000D7027 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A4851034224FE52000A521EF /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		A4851036224FE5AF00A521EF /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
 		A4A47BB4222D8FA60044F1E2 /* OblastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OblastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		A4A47BBC222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A47BC1222D8FA60044F1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				8C95D2DA228D9CC00026FAAF /* zipCodes.swift */,
+				8CD8CDA822F8BC83000D7027 /* politicsItem.swift */,
+				8CD8CDAA22F8BCB0000D7027 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,20 +84,13 @@
 		8C95D2DC228D9D130026FAAF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				A4A47BB9222D8FA60044F1E2 /* registerViewController.swift */,
 				A4851034224FE52000A521EF /* searchViewController.swift */,
 				A4851036224FE5AF00A521EF /* logInViewController.swift */,
 				8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */,
+				8CC6E93A22F9B167002333BC /* politicsTableViewController.swift */,
+				8CC6E93C22F9C92A002333BC /* OnlineUsersTableViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		8CC6521722B9507A0051AB91 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				8CC6521822B9508F0051AB91 /* AuthenticationManager.swift */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		A4A47BAB222D8FA60044F1E2 = {
@@ -113,7 +114,6 @@
 		A4A47BB6222D8FA60044F1E2 /* OblastApp */ = {
 			isa = PBXGroup;
 			children = (
-				8CC6521722B9507A0051AB91 /* Helper */,
 				8C95D2DC228D9D130026FAAF /* ViewControllers */,
 				8C95D2D9228D9CB40026FAAF /* Model */,
 				A4A47BB7222D8FA60044F1E2 /* AppDelegate.swift */,
@@ -121,6 +121,7 @@
 				A4A47BBE222D8FA60044F1E2 /* Assets.xcassets */,
 				A4A47BC0222D8FA60044F1E2 /* LaunchScreen.storyboard */,
 				A4A47BC3222D8FA60044F1E2 /* Info.plist */,
+				8CC6E93E22F9E9B8002333BC /* zipcodeJSON copy.json */,
 				8C4C2CF522A14EB1008A356E /* csvjson.json */,
 				8C95D2DD228DA6A10026FAAF /* zipcodeJSON.json */,
 				8CC6521522B93E5A0051AB91 /* GoogleService-Info.plist */,
@@ -204,6 +205,7 @@
 				8C4C2CF622A14EB1008A356E /* csvjson.json in Resources */,
 				A4A47BBF222D8FA60044F1E2 /* Assets.xcassets in Resources */,
 				A4A47BBD222D8FA60044F1E2 /* Main.storyboard in Resources */,
+				8CC6E93F22F9E9B8002333BC /* zipcodeJSON copy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4851035224FE52000A521EF /* searchViewController.swift in Sources */,
-				A4A47BBA222D8FA60044F1E2 /* registerViewController.swift in Sources */,
-				8CC6521922B9508F0051AB91 /* AuthenticationManager.swift in Sources */,
+				8CD8CDA922F8BC83000D7027 /* politicsItem.swift in Sources */,
 				A4A47BB8222D8FA60044F1E2 /* AppDelegate.swift in Sources */,
+				8CD8CDAB22F8BCB0000D7027 /* User.swift in Sources */,
+				8CC6E93D22F9C92A002333BC /* OnlineUsersTableViewController.swift in Sources */,
+				8CC6E93B22F9B167002333BC /* politicsTableViewController.swift in Sources */,
 				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
 				8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */,
 				8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */,

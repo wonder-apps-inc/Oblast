@@ -10,57 +10,55 @@
 
 import UIKit
 import Firebase
-
+//NEED TO ADD CHECK TO SEE IF LOGGED IN, IF SO BYPASS LOGGIN IN AGAIN.
 class logInViewController: UIViewController {
     
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    let loginToList = "LoginToList"
+    
     @IBAction func didTapLogin(sender: UIButton) {
-        let loginManager = AuthenticationManager()
-        guard let email = emailField.text, let password = passwordField.text else { return }
-        loginManager.signIn(email: email, pass: password) {[weak self] (success) in
-            guard let `self` = self else { return }
-            var message: String = ""
-            if (success) {
-                message = "User was sucessfully logged in."
-            } else {
-                message = "There was an error."
-            }
-            let alertController = UIAlertController(title: nil, message: message, preferredStyle: .alert)
-            alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-            self.display(alertController: alertController)
-        }
+        performSegue(withIdentifier: loginToList, sender: nil)
+
        
     }
     
-    
-    func display(alertController: UIAlertController) {
-        self.present(alertController, animated: true, completion: nil)
-    }
+    @IBAction func signUpDidTouch(_ sender: AnyObject) {let alert = UIAlertController(title: "Register",
+    message: "Register", preferredStyle: .alert)
         
-
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let saveAction = UIAlertAction(title: "Save", style: .default) { _ in
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .cancel)
+        
+        alert.addTextField { textEmail in
+            textEmail.placeholder = "Enter your email"
+        }
+        
+        alert.addTextField { textPassword in
+            textPassword.isSecureTextEntry = true
+            textPassword.placeholder = "Enter your password"
+        }
+        
+        alert.addAction(saveAction)
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true, completion: nil)
     }
     
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+extension logInViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == emailField {
+            passwordField.becomeFirstResponder()
+        }
+        if textField == textField {
+            textField.resignFirstResponder()
+        }
+        return true
     }
-    */
-
 }
