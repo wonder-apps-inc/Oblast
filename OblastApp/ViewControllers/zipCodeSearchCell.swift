@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 
+//need to make it so that every zipcode is a different node in FB. But not sure how to seperate them when everything is a json.
+
 class zipCodeSearchCell: UITableViewCell {
     
   

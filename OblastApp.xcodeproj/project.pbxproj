@@ -15,6 +15,7 @@
 		8CC6E93B22F9B167002333BC /* politicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6E93A22F9B167002333BC /* politicsTableViewController.swift */; };
 		8CC6E93D22F9C92A002333BC /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6E93C22F9C92A002333BC /* OnlineUsersTableViewController.swift */; };
 		8CC6E93F22F9E9B8002333BC /* zipcodeJSON copy.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CC6E93E22F9E9B8002333BC /* zipcodeJSON copy.json */; };
+		8CCBD83422FB0A7E00529353 /* educationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBD83322FB0A7E00529353 /* educationTableViewController.swift */; };
 		8CD8CDA922F8BC83000D7027 /* politicsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8CDA822F8BC83000D7027 /* politicsItem.swift */; };
 		8CD8CDAB22F8BCB0000D7027 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8CDAA22F8BCB0000D7027 /* User.swift */; };
 		A4851035224FE52000A521EF /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4851034224FE52000A521EF /* searchViewController.swift */; };
@@ -37,6 +38,7 @@
 		8CC6E93A22F9B167002333BC /* politicsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = politicsTableViewController.swift; sourceTree = "<group>"; };
 		8CC6E93C22F9C92A002333BC /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersTableViewController.swift; sourceTree = "<group>"; };
 		8CC6E93E22F9E9B8002333BC /* zipcodeJSON copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "zipcodeJSON copy.json"; sourceTree = "<group>"; };
+		8CCBD83322FB0A7E00529353 /* educationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educationTableViewController.swift; sourceTree = "<group>"; };
 		8CD8CDA822F8BC83000D7027 /* politicsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = politicsItem.swift; sourceTree = "<group>"; };
 		8CD8CDAA22F8BCB0000D7027 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A4851034224FE52000A521EF /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				A4851036224FE5AF00A521EF /* logInViewController.swift */,
 				8C94F19C229329D10035DB97 /* zipCodeSearchCell.swift */,
 				8CC6E93A22F9B167002333BC /* politicsTableViewController.swift */,
+				8CCBD83322FB0A7E00529353 /* educationTableViewController.swift */,
 				8CC6E93C22F9C92A002333BC /* OnlineUsersTableViewController.swift */,
 			);
 			path = ViewControllers;
@@ -269,6 +272,7 @@
 				8CD8CDAB22F8BCB0000D7027 /* User.swift in Sources */,
 				8CC6E93D22F9C92A002333BC /* OnlineUsersTableViewController.swift in Sources */,
 				8CC6E93B22F9B167002333BC /* politicsTableViewController.swift in Sources */,
+				8CCBD83422FB0A7E00529353 /* educationTableViewController.swift in Sources */,
 				A4851037224FE5AF00A521EF /* logInViewController.swift in Sources */,
 				8C94F19D229329D10035DB97 /* zipCodeSearchCell.swift in Sources */,
 				8C95D2DB228D9CC00026FAAF /* zipCodes.swift in Sources */,

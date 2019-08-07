@@ -1,20 +1,20 @@
 //
-//  politicsTableViewController.swift
+//  educationTableViewController.swift
 //  OblastApp
 //
-//  Created by Jackie on 8/6/19.
+//  Created by Jackie on 8/7/19.
 //  Copyright © 2019 Egbert Sayers. All rights reserved.
 //
 
-import UIKit
 import Firebase
+import UIKit
 
 //grocerylisttableVC
-class politicsTableViewController: UITableViewController {
+class educationTableViewController: UITableViewController {
     
     // MARK: Constants
     let listToUsers = "ListToUsers"
-    let ref = Database.database().reference(withPath: "mass-politics")
+    let ref = Database.database().reference(withPath: "mass-education")
     
     
     // MARK: Properties
@@ -28,56 +28,45 @@ class politicsTableViewController: UITableViewController {
     }
     
     //MARK: UIViewController Lifecycle
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.allowsSelectionDuringEditing = false
-        userCountBarButtonItem = UIBarButtonItem(title: "1", style: .plain, target: self, action: #selector(userCountButtonDidTouch))
-//        userCountBarButtonItem.tintColor = UIColor.white
+//        userCountBarButtonItem = UIBarButtonItem(title: "1", style: .plain, target: self, action: #selector(userCountButtonDidTouch))
+        userCountBarButtonItem.tintColor = UIColor.white
         navigationItem.leftBarButtonItem = userCountBarButtonItem
         
         user = User(uid: "FakeId", email: "hungry@person.food")
-        // 1
         ref.observe(.value, with: { snapshot in
-            // 2
-            var newItems: [politicsItem] = []
-            
-            // 3
-            for child in snapshot.children {
-                // 4
-                if let snapshot = child as? DataSnapshot,
-                    let politicsItem = politicsItem(snapshot: snapshot) {
-                    newItems.append(politicsItem)
-                }
-            }
-            
-            // 5
-            self.items = newItems
-            self.tableView.reloadData()
+            print(snapshot.value as Any)
         })
         
-    
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+        
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return items.count
     }
-
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "educationCell", for: indexPath)
         let politicsItem = items[indexPath.row]
-
-            cell.textLabel?.text = politicsItem.name
+        
+        cell.textLabel?.text = politicsItem.name
         cell.detailTextLabel?.text = politicsItem.addedByUser
         
         toggleCellCheckbox(cell, isCompleted: politicsItem.completed)
@@ -96,21 +85,21 @@ class politicsTableViewController: UITableViewController {
             cell.detailTextLabel?.textColor = .gray
         }
     }
-
+    
     
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return false if you do not want the specified item to be editable.
         return true
     }
- 
-
+    
+    
     
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            let politicsItem = items[indexPath.row]
-            politicsItem.ref?.removeValue()
+            items.remove(at: indexPath.row)
+            tableView.reloadData()
         }
     }
     
@@ -123,8 +112,8 @@ class politicsTableViewController: UITableViewController {
         politicsItem.completed = toggledCompletion
         tableView.reloadData()
     }
-
-
+    
+    
     @IBAction func addButtonDidTouch(_ sender: AnyObject) {
         let alert = UIAlertController(title: "Comment", message: "Add a comment", preferredStyle: .alert)
         
@@ -150,5 +139,5 @@ class politicsTableViewController: UITableViewController {
     @objc func userCountButtonDidTouch() {
         performSegue(withIdentifier: listToUsers, sender: nil)
     }
-
+    
 }

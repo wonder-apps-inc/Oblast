@@ -183,10 +183,6 @@ class searchViewController: UITableViewController, UISearchBarDelegate {
                 } else {
                     zip = zipCodesArray[indexPath.row]
                 }
-                //                let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                //   let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                
-                //Dictionary button view, is dictionarytableview, the main table view click on is detail view. maybe need another segue with button.
                 
                 
                 controller.zipCodesVar = zip
