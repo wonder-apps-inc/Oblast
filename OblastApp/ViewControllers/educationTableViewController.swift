@@ -14,11 +14,10 @@ class educationTableViewController: UITableViewController {
     
     // MARK: Constants
     let listToUsers = "ListToUsers"
-    let ref = Database.database().reference(withPath: "mass-education")
-    
+    let ref = Database.database().reference(withPath: "wester-mass-education")
     
     // MARK: Properties
-    var items: [politicsItem] = []
+    var items: [educationItem] = []
     var  user: User!
     var userCountBarButtonItem: UIBarButtonItem!
     

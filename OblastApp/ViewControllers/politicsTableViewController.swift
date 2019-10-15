@@ -14,7 +14,7 @@ class politicsTableViewController: UITableViewController {
     
     // MARK: Constants
     let listToUsers = "ListToUsers"
-    let ref = Database.database().reference(withPath: "mass-politics")
+    let ref = Database.database().reference(withPath: "western-politics")
     
     
     // MARK: Properties
