@@ -33,7 +33,7 @@ class politicsTableViewController: UITableViewController {
         super.viewDidLoad()
         
         tableView.allowsSelectionDuringEditing = false
-        userCountBarButtonItem = UIBarButtonItem(title: "1", style: .plain, target: self, action: #selector(userCountButtonDidTouch))
+//        userCountBarButtonItem = UIBarButtonItem(title: "1", style: .plain, target: self, action: #selector(userCountButtonDidTouch))
 //        userCountBarButtonItem.tintColor = UIColor.white
         navigationItem.leftBarButtonItem = userCountBarButtonItem
         

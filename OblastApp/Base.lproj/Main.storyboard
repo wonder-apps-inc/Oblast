@@ -214,7 +214,7 @@
                                         <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Politics"/>
                                         <connections>
-                                            <segue destination="kw4-s1-UE2" kind="show" identifier="ItemCell" id="Hw2-aP-pJa"/>
+                                            <segue destination="TJv-rJ-xCC" kind="show" id="45n-uO-2g0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyi-ot-920">
@@ -243,7 +243,6 @@
         <!--Education-->
         <scene sceneID="wSO-7O-Uxr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O8n-rJ-RXG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="hWt-yB-yDq" customClass="educationTableViewController" customModule="OblastApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="M7T-3e-RuF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -288,6 +287,7 @@
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O8n-rJ-RXG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6639.1999999999998" y="-595.56650246305423"/>
         </scene>
@@ -345,7 +345,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odB-d2-kbG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7666.3999999999996" y="49.50738916256158"/>
+            <point key="canvasLocation" x="6926" y="95"/>
         </scene>
         <!--Online Users Table View Controller-->
         <scene sceneID="xR0-dO-ezk">
@@ -394,7 +394,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PQT-5O-ABB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8594.3999999999996" y="11.822660098522167"/>
+            <point key="canvasLocation" x="7852" y="95"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w0L-5R-BEc">
@@ -415,22 +415,22 @@
             <point key="canvasLocation" x="3882.4000000000001" y="95.320197044334975"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="zs0-7c-YX3">
+        <scene sceneID="I9H-gs-f9e">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AWc-Nm-1Vi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kw4-s1-UE2" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TJv-rJ-xCC" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="X3X-pT-w4s">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R83-6J-IN6">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="P3w-6m-pik" kind="relationship" relationship="rootViewController" id="FKB-yz-lrF"/>
+                        <segue destination="P3w-6m-pik" kind="relationship" relationship="rootViewController" id="RBd-A6-NHk"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5CC-LE-grq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6724" y="49.50738916256158"/>
+            <point key="canvasLocation" x="6094" y="95"/>
         </scene>
     </scenes>
 </document>
